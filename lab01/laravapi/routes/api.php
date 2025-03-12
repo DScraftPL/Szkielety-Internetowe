@@ -9,7 +9,6 @@ use App\Http\Controllers\ProductController;
 use App\Http\Controllers\AuthController;
 //Route::resource('products', ProductController::class);
 //Trasy publiczne
-
 Route::get('/products/{id}', [ProductController::class, 'show']);
 Route::get('/products/search/{name}', [ProductController::class, 'search']);
 Route::post('/register', [AuthController::class, 'register']);
