@@ -1,4 +1,5 @@
 const http = require('http')
+
 function process_request(req, res) {
     const body = 'Witaj na platformie Node!\n'
     const content_length = body.length
@@ -8,5 +9,6 @@ function process_request(req, res) {
     });
     res.end(body)
 }
+
 const server = http.createServer(process_request)
 server.listen(3000, () => console.log('Serwer działa!'))
