@@ -1,0 +1,19 @@
+{
+    "name": "express-serwer",
+    "description": "Prosta aplikacja",
+    "type": "module",
+    "main": "index.js",
+    "keywords": [
+        "express",
+        "serwer"
+    ],
+    "author": "Kacper Wiacek",
+    "dependencies": {
+        "express": "^4.21.2",
+        "nodemon": "^3.1.9"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    }
+}
