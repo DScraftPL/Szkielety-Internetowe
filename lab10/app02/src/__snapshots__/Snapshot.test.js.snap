@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderuje się poprawnie 1`] = `
+<div>
+  <div>
+    <h1>
+      Test migawkowy
+    </h1>
+    <h2>
+      test
+    </h2>
+  </div>
+</div>
+`;
